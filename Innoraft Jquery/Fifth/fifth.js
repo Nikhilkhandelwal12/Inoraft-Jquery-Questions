@@ -1,0 +1,16 @@
+$(document).ready(function(){
+  $('footer').click(function(){
+    $('.main').css({"background-color":"black"});
+    $('header:not(.para)').css("opacity","0.3");
+    $('.container').css("opacity","0.3");
+    $('footer').css("opacity","0.3");
+    $('p').css({"visibility":"visible"});
+  })
+  $('p').click(function(){
+    $('.main').css("background-color","white");
+    $('header').css("opacity","1");
+    $('.container').css("opacity","1");
+    $('footer').css("opacity","1");
+    $('p').css({"visibility":"hidden"});
+  })
+});

@@ -1,0 +1,12 @@
+.firstdiv{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.bt{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 50px;
+}
